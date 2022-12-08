@@ -24,7 +24,7 @@ const imageAltText = "rose abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm Elkin a Programmer and System Engineer student.I❤️ Programming, Music and Dark Mode.";
+  "I am Elkin, a Programmer and System  Engineer student. I ❤️ Programming, Music and Dark Mode.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
