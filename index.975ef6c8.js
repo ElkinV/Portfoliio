@@ -28749,7 +28749,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * freely use on your site.
  */ var _photoFacePng = require("../images/photo-face.png");
 var _photoFacePngDefault = parcelHelpers.interopDefault(_photoFacePng);
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Elkin's Face";
 /**
  * Project list
  *
@@ -28806,7 +28806,8 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideInLeft"
                             },
                             alt: imageAltText
                         }, void 0, false, {
