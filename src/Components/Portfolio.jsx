@@ -51,7 +51,7 @@ const projectList = [
   {
     title: "EG Series",
     description:
-      "Object oriented application in Java that allows to register the information of the series and its characters in order to be able to calculate the price to pay for salaries to the characters of a series according to the number of episodes.",
+      "Object oriented application in Java that allows to register the information of the series and its characters to calculate the price for salaries to the characters according to the number of episodes.",
     url: "https://github.com/ElkinV/Final_Project_OOP",
   },
 ];
