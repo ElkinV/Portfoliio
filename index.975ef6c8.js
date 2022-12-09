@@ -28762,7 +28762,7 @@ const imageAltText = "Elkin's Face";
         url: "https://github.com/ElkinV/Converter"
     },
     {
-        title: "JS DRUMKIT",
+        title: "JS DrumKit",
         description: "A simple DrumKit made with HTML, CSS and JS",
         url: "https://elkinv.github.io/Drumkit/"
     },
