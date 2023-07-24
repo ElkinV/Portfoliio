@@ -1,0 +1,45 @@
+.light {
+  margin-top: 30px;
+}
+
+.portfolio_container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container .box {
+  width: 42%;
+  border-radius: 10px;
+  padding: 24px 16px;
+  margin-bottom: 10;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(204, 204, 204);
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio_container {
+    justify-content: center;
+  }
+
+  .container .box {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+}
