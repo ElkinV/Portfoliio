@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -23,8 +22,6 @@ import PropTypes from "prop-types";
 import image from "../images/landScape.jpg";
 import "./css/home.css";
 
-const imageAltText = "Blue and orange abstract image";
-
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="home_container">
@@ -32,11 +29,6 @@ const Home = ({ name, title }) => {
       <div className="home_title_container">
         <h1>{name}</h1>
         <h2>{title}</h2>
-      </div>
-      <div className="home_button">
-        <a href="#about">
-          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-        </a>
       </div>
     </section>
   );
