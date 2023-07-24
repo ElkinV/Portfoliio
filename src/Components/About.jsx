@@ -16,7 +16,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/aboutme1.jpg";
+import image from "../images/image.png";
+import "./css/about.css";
 
 const imageAltText = "rose abstract background";
 
@@ -30,14 +31,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Programming",
-  "Git/GitHub",
-  "POO",
-  "SQL",
-  "Flask",
-  "Django",
-];
+const skillsList = ["Programming", "Git/GitHub", "POO", "SQL", "Flask", "Django"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -49,28 +43,14 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="light" id="about">
+    <section className="about_container" id="about">
       <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
+      <div className="about_content_container">
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
+          className="about_list"
         >
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>

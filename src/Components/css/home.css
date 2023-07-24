@@ -1,0 +1,23 @@
+.home_container {
+  min-height: 100vh;
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.home_title_container {
+  position: absolute;
+  top: 30%;
+  left: 2rem;
+}
+
+.home_button {
+  position: absolute;
+  bottom: 8rem;
+  width: 100vw;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .home_title_container {
+    top: 10%;
+  }
+}

@@ -20,6 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/photo-face.png";
+import "./css/portfolio.css";
 
 const imageAltText = "Elkin's Face";
 
@@ -32,20 +33,17 @@ const imageAltText = "Elkin's Face";
 const projectList = [
   {
     title: "Web Converter",
-    description:
-      "A simple temperature converte made with HTML, CSS and JavaScript",
+    description: "A simple temperature converte made with HTML, CSS and JavaScript",
     url: "https://github.com/ElkinV/Converter",
   },
   {
     title: "JS DrumKit",
-    description:
-      "A simple DrumKit made with HTML, CSS and JS",
+    description: "A simple DrumKit made with HTML, CSS and JS",
     url: "https://elkinv.github.io/Drumkit/",
   },
   {
     title: "JS Clock",
-    description:
-    "A simple Clock made with HTML, CSS and JS",
+    description: "A simple Clock made with HTML, CSS and JS",
     url: "https://elkinv.github.io/Clock/",
   },
   {
@@ -60,11 +58,16 @@ const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
       <h2>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div className="portfolio_container">
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
