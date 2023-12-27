@@ -32,9 +32,9 @@ const imageAltText = "Elkin's Face";
  */
 const projectList = [
   {
-    title: "Web Converter",
-    description: "A simple temperature converte made with HTML, CSS and JavaScript",
-    url: "https://github.com/ElkinV/Converter",
+    title: "Notify Home",
+    description: "flutter app for the management of electronic equipment maintenance.",
+    url: "https://github.com/ElkinV/Notify-Hogar",
   },
   {
     title: "JS DrumKit",
